@@ -1,0 +1,28 @@
+{
+  "name": "email-service-gmail",
+  "version": "1.0.0",
+  "repository": "https://github.com/ChaoLiangSuper/email-service-gmail",
+  "author": "Chao <cliangsuper@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "compile": "tsc -p .",
+    "start": "",
+    "check": "gts check",
+    "clean": "gts clean",
+    "fix": "gts fix",
+    "prepare": "yarn run compile",
+    "pretest": "yarn run compile",
+    "posttest": "yarn run check"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "googleapis": "^43.0.0",
+    "nodemailer": "^6.3.0"
+  },
+  "devDependencies": {
+    "@types/node": "^10.0.3",
+    "gts": "^1.1.0",
+    "tslint": "^5.20.0",
+    "typescript": "^3.6.3"
+  }
+}
